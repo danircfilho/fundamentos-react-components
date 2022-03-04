@@ -27,7 +27,7 @@ function App() {
 
             <div className="CardExercicio">
 
-                <Card titulo="#11 - Comunicação Indireta" color='#d4e722b5'>
+                <Card titulo="#11git - Comunicação Indireta" color='#d4e722b5'>
                     <IndiretaPai />
                 </Card>
 
