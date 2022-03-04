@@ -11,7 +11,7 @@ export default function IndiretaFilho(props) {
   return (
     <div>
       <div>Filho</div>
-      <button onClick={ _ => cb('Roberto', idadeAleatoria, true) }>
+      <button onClick={ _ => cb('Roberto', idadeAleatoria, false) }>
         Fornecer Informações      
       </button>  
     </div>

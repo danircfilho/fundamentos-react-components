@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import IndiretaFilho from "./IndiretaFilho";
 
 export default function IndiretaPai() {
-
+  
   const [nome, setNome] = useState('')
-  const [idade, setIdade] = useState( )
-  const [sexo, setSexo] = useState(true)
+  const [idade, setIdade] = useState()
+  const [sexo, setSexo] = useState()
 
 
   function paiRecebeInformacoes(nome, idade, sexo) {

@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import React from "react";
 
 //Estilos
@@ -19,6 +18,7 @@ import ParImpar from "./component/condicional/ParOuImpar";
 import UsuarioInfo from "./component/condicional/UsuarioInfo";
 import DiretaPai from "./component/comunicacao/DiretaPai";
 import IndiretaPai from "./component/comunicacao/IndiretaPai";
+import Input from "./component/formulario/Input";
 
 function App() {
     return (
@@ -27,7 +27,11 @@ function App() {
 
             <div className="CardExercicio">
 
-                <Card titulo="#11git - Comunicação Indireta" color='#d4e722b5'>
+                <Card titulo="#12 - Componente Controlado (Input)" color='#86807eb5'>
+                    <Input />
+                </Card>
+
+                <Card titulo="#11 - Comunicação Indireta" color='#d4e722b5'>
                     <IndiretaPai />
                 </Card>
 
@@ -36,7 +40,7 @@ function App() {
                 </Card>
 
                 <Card titulo="#9 - Renderização Condicional" color='#ce65b7b5'>
-                    <ParImpar valor={20}/>
+                    <ParImpar valor={20} />
                     <UsuarioInfo usuario={{ nome: 'Daniel' }} />
                     <UsuarioInfo usuario={{}} /> {/* objet vazio */}
                     <UsuarioInfo usuario={{ email: 'email@email.com' }} />
