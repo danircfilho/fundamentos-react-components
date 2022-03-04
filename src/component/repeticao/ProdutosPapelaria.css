@@ -1,0 +1,17 @@
+.ProdutosPapelaria table {
+  width: 100%;
+}
+
+.ProdutosPapelaria th {
+  background-color: #7e0beb;
+  color: #ffffff;
+}
+
+.ProdutosPapelaria .Par {
+  background-color: #9481a7;
+}
+
+.ProdutosPapelaria .Impar {
+  background-color: #afacb3;
+}
+
